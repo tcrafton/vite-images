@@ -12,7 +12,7 @@ const getInitialDarkMode = () => {
 
 export const AppProvider = ({ children }) => {
   const [isDarkTheme, setIsDarkTheme] = useState(getInitialDarkMode());
-  const [searchTerm, setSearchTerm] = useState('beach');
+  const [searchTerm, setSearchTerm] = useState('lake');
 
   const toggleDarkTheme = () => {
     const newDarkTheme = !isDarkTheme;
